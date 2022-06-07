@@ -70,7 +70,7 @@ a:active {
   text-align: center;
   font-weight: 500;
   color: #2E2E2E;
-  padding: 40px 0px;
+  padding: 10px 0px;
   position: relative;
 }
 .heading span {
@@ -554,7 +554,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     contact-us Start
 --*/
 #contact-us {
-  padding: 70px 0px;
+  padding: 70px 0px 10px 0px;
 }
 #contact-us .block .title {
   padding: 20px 0;
