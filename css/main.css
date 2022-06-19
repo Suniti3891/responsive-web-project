@@ -271,8 +271,8 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   text-align: center;
 }
 #about-us .block p {
-  color: #959595;
-  font-size: 16px;
+  color: black;
+  font-size: 20px;
   line-height: 26px;
   padding: 40px 0px;
 }
