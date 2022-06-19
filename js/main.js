@@ -7,7 +7,7 @@ $(document).ready(function(){
     pagination : true,
     paginationSpeed : 1000,
     navigation : true,
-    navigationText : ["","<i class='fa fa-angle-right'></i>"],
+    navigationText : ["",""],
     slideSpeed : 800,
  });
 
