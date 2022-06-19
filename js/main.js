@@ -33,3 +33,27 @@ $(document).ready(function(){
     new WOW().init();
 
 });
+
+
+function isValidEmail(str) {
+    // Regular expression to check if string is email
+    const regexExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/gi;
+  
+    return regexExp.test(str);
+}
+
+function subscribe(){
+    // alert('subscribe');
+    event.preventDefault();
+// function $('#subscribe_email').val()
+
+if ( isValidEmail($('#subscribe_email').val())) {
+        alert(" Thank you for subscribing. You will receive periodic emails from us. ");
+        document.getElementById("slider").scrollIntoView();
+        }
+    else {
+        $('#subscribe_email').focus();
+        alert("Invalid Email Please check your email and try again.")
+    }
+
+}
